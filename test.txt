@@ -1,5 +1,23 @@
+dans git bash (hors VS code)
+    git config --list
+    git config --global user.name jdelobel5987
+    git config --global user.email delobel.julien@outlook.com
+
+refaire --list pour vérifier user.name et email
+
 terminal git bash
 git clone https://github.com/jdelobel5987/learning.git 
 open folder in vs code explorer
 chose the folder with the name of the github repo
-extension gith --> commit
+extension git --> commit
+
+puis push (demandé login password)
+push apparait dans source control graph
+
+si travail à plusieurs sur un même fichier:
+    git pull (récupère infos depuis github) (pas forcément dans git bash, powershell ok)
+
+ou bien les 2 commandes suivantes
+    git fetch
+    git merge origin/main
+
