@@ -9,9 +9,9 @@ terminal git bash
 git clone https://github.com/jdelobel5987/learning.git 
 open folder in vs code explorer
 chose the folder with the name of the github repo
-extension git --> commit
+extension git --> commit (local versioning, à faire fréquemment avec commentaire étape))
 
-puis push (demandé login password)
+puis push (demandé login password) (envoi repo distant, quand fini travail un doc ou longue pause ou fin de journée)
 push apparait dans source control graph
 
 si travail à plusieurs sur un même fichier:
@@ -21,3 +21,6 @@ ou bien les 2 commandes suivantes
     git fetch
     git merge origin/main
 
+je teste la création d'une nouvelle branche:
+    git checkout -b nomdelabranche  # je l'ai nommé branche1
+à la création d'une nouvelle branche --> publish branch sans message
