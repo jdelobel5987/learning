@@ -1,0 +1,5 @@
+terminal git bash
+git clone https://github.com/jdelobel5987/learning.git 
+open folder in vs code explorer
+chose the folder with the name of the github repo
+extension gith --> commit
